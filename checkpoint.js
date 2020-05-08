@@ -184,7 +184,7 @@ LinkedList.prototype.reverse = function () {
 //    Primer mano:
 //     A --> 4  vs  6 <-- B [6 > 4 entones gana la mano B y pone ambas cartas en su mazo, colocando primero la suya]
 //    - mazoUserA = [2,10,11]
-//    - mazoUserB = [6,9,10,3,6,4]
+//    - mazoUserB = [9,10,3,6,4]
 
 var cardGame = function (mazoUserA, mazoUserB) {
   var cartaA = 0;
